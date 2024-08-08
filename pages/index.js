@@ -11,7 +11,7 @@ export default function Pokemones({ pokemones }) {
   console.log(pokemones)
   return (
     <div>
-      <p>Pokemones</p>
+      <p>Mi App de Pokemones</p>
       <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
         {pokemones.map(pokemon => <Pokemon pokemon={pokemon} key={pokemon.name} />)}
       </ul>
